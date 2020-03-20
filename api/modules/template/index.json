@@ -1,0 +1,25 @@
+{
+  "id": "template",
+  "name": "TemplateGame",
+  "authors": [
+    "Niklas Eicker"
+  ],
+  "description": "Small template to help you write your own games",
+  "latestVersion": "1.0.0",
+  "sourceUrl": "https://github.com/NiklasEi/template-module-for-gamebox",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "updatedAt": 1584707799040,
+      "releaseNotes": [
+        "This is the first release for GameBox v3 and is compatible with MC 1.14+"
+      ],
+      "dependencies":[
+        {
+          "id": "gamebox",
+          "versionConstrain": ">= 3.0.0-beta.2"
+        }
+      ]
+    }
+  ]
+}
