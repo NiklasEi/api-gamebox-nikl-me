@@ -7,6 +7,7 @@
   "description": "The super addictive backing game",
   "latestVersion": "3.0.0-beta",
   "sourceUrl": "https://github.com/NiklasEi/cookieclicker-for-gamebox",
+  "updatedAt": 1584707798040,
   "versions": [
     {
       "version": "3.0.0-beta",
@@ -19,7 +20,8 @@
           "id": "gamebox",
           "versionConstrain": ">= 3.0.0-beta.2"
         }
-      ]
+      ],
+      "downloadUrl": "https://github.com/NiklasEi/cookieclicker-for-gamebox/releases/download/v3.0.0-beta/CookieClicker.jar"
     }
   ]
 }

@@ -1,4 +1,5 @@
 https://api-gamebox-nikl-me.netlify.com/* https://api.gamebox.nikl.me/:splat 301!
 
+/api/module/:module/:version /api/module/:module/:version.json 200
 /api/module/:module /api/module/:module/index.json 200
 /api/modules /api/modules/index.json 200
