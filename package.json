@@ -1,0 +1,48 @@
+{
+  "name": "api-gamebox-nikl-me",
+  "version": "1.0.0",
+  "description": "Api for gamebox",
+  "private": true,
+  "scripts": {
+    "build": "tsc ./**.ts && gatsby build",
+    "dev": "gatsby develop",
+    "clean": "rimraf public && gatsby clean && rm createApi.js createJsonFileAsync.js gatsby-node.js",
+    "lint": "prettier --config .prettierrc --ignore-path .gitignore --check '**/*.{ts,tsx}' && tslint -c tslint.json --project tsconfig.json",
+    "format": "prettier --config .prettierrc --ignore-path .gitignore --write '**/*.{ts,tsx}' && tslint -c tslint.json --project tsconfig.json --fix",
+    "test": "npm run type-check && npm run lint",
+    "type-check": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NiklasEi/api-gamebox-nikl-me.git"
+  },
+  "author": "Niklas Eicker <hello@nikl.me>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/NiklasEi/api-gamebox-nikl-me/issues"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "homepage": "https://github.com/NiklasEi/api-gamebox-nikl-me#readme",
+  "dependencies": {
+    "gatsby": "2.20.7",
+    "gatsby-plugin-tslint": "0.0.2",
+    "gatsby-plugin-typescript": "2.3.1",
+    "gatsby-source-filesystem": "2.2.2",
+    "gatsby-transformer-json": "2.3.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "@types/react": "16.9.26",
+    "@types/react-dom": "16.9.5",
+    "prettier": "2.0.2",
+    "tslint": "5.20.1",
+    "tslint-config-prettier": "1.18.0",
+    "tslint-eslint-rules": "5.4.0",
+    "tslint-loader": "3.5.4",
+    "tslint-react": "4.2.0",
+    "typescript": "3.8.3"
+  }
+}
