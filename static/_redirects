@@ -3,3 +3,5 @@ https://api-gamebox-nikl-me.netlify.com/* https://api.gamebox.nikl.me/:splat 301
 /module/:module/:version /module/:module/:version.json 200
 /module/:module /module/:module/index.json 200
 /modules /modules/index.json 200
+
+/health /health/index.json 200
