@@ -1,0 +1,21 @@
+{
+  "id": "gemcrush",
+  "name": "GemCrush",
+  "authors": [
+    "Niklas Eicker"
+  ],
+  "description": "Match items and let it rain gems",
+  "sourceUrl": "https://github.com/NiklasEi/gemcrush-for-gamebox",
+  "version": "4.0.0-beta",
+  "updatedAt": 1585596719309,
+  "downloadUrl": "https://github.com/NiklasEi/gemcrush-for-gamebox/releases/download/v4.0.0-beta/GemCrush.jar",
+  "releaseNotes": [
+    "This is the first release for GameBox v3 and is compatible with MC 1.14+"
+  ],
+  "dependencies":[
+    {
+      "id": "gamebox",
+      "versionConstrain": ">= 3.0.0-beta.2"
+    }
+  ]
+}
