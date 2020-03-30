@@ -31,7 +31,10 @@ exports.onPreBuild = async ({ graphql }: { graphql: any }, _pluginOptions: any) 
   console.log(publicPath);
   await handleInput(
     publicPath,
-    modules.map((module: any) => module.node)
+    modules.map((module: any) => {
+      const { moduleId, ...data } = module.node;
+      return { id: moduleId, ...data };
+    })
   );
 };
 

@@ -15,7 +15,7 @@ export interface CompleteModuleData extends ModuleBasicData {
 export type VersionedModuleData = ModuleBasicData & VersionData;
 
 export interface ModuleBasicData {
-  moduleId: string;
+  id: string;
   authors: string[];
   description: string;
   name: string;
@@ -40,7 +40,7 @@ export interface Dependency {
 const handleInput = async (publicPath: string, modules: Array<VersionedModuleData>) => {
   const groupedModules: Array<Array<VersionedModuleData>> = modules.reduce(
     (groupedModules: Array<Array<VersionedModuleData>>, module: VersionedModuleData) => {
-      const otherVersions = groupedModules.find((modules) => modules[0].moduleId === module.moduleId);
+      const otherVersions = groupedModules.find((modules) => modules[0].id === module.id);
       if (otherVersions === undefined) {
         groupedModules.push([module]);
       } else {
@@ -58,7 +58,7 @@ const handleInput = async (publicPath: string, modules: Array<VersionedModuleDat
       return module;
     });
     const completeModuleData: CompleteModuleData = {
-      moduleId: latestModule.moduleId,
+      id: latestModule.id,
       authors: latestModule.authors,
       description: latestModule.description,
       name: latestModule.name,
@@ -93,11 +93,9 @@ const handleInput = async (publicPath: string, modules: Array<VersionedModuleDat
   });
   await Promise.all([
     ...modules.map((module) =>
-      createJsonFileAsync(publicPath, join('module', module.moduleId, `${module.version}.json`), module)
+      createJsonFileAsync(publicPath, join('module', module.id, `${module.version}.json`), module)
     ),
-    ...completeModulesData.map((data) =>
-      createJsonFileAsync(publicPath, join('module', data.moduleId, `index.json`), data)
-    ),
+    ...completeModulesData.map((data) => createJsonFileAsync(publicPath, join('module', data.id, `index.json`), data)),
     createJsonFileAsync(publicPath, join('modules', 'index.json'), allModulesData)
   ]);
 };
