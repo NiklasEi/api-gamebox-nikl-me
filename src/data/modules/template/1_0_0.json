@@ -8,6 +8,7 @@
   "sourceUrl": "https://github.com/NiklasEi/template-module-for-gamebox",
   "version": "1.0.0",
   "updatedAt": 1584707799040,
+  "downloadUrl": "https://github.com/NiklasEi/template-module-for-gamebox/releases/download/v3.0.0/TemplateGame.jar",
   "releaseNotes": [
     "This is the first release for GameBox v3 and is compatible with MC 1.14+"
   ],
@@ -16,6 +17,5 @@
       "id": "gamebox",
       "versionConstrain": ">= 3.0.0-beta.2"
     }
-  ],
-  "downloadUrl": "https://github.com/NiklasEi/template-module-for-gamebox/releases/download/v3.0.0/TemplateGame.jar"
+  ]
 }

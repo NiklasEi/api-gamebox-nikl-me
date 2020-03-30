@@ -2,13 +2,13 @@
 
 module.exports = {
   plugins: [
-    // {
-    //   resolve: 'gatsby-source-filesystem',
-    //   options: {
-    //     name: 'content',
-    //     path: `${__dirname}/src/content`
-    //   }
-    // },
-    'gatsby-plugin-typescript'
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/data/modules/`
+      }
+    },
+    'gatsby-plugin-typescript',
+    'gatsby-plugin-tslint'
   ]
 };

@@ -1,0 +1,37 @@
+{
+  "extends": ["tslint:latest", "tslint-react", "tslint-eslint-rules", "tslint-config-prettier"],
+  "linterOptions": {
+    "exclude": ["node_modules/**"]
+  },
+  "rules": {
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "interface-name": [true, "never-prefix"],
+    "jsx-no-lambda": false,
+    "max-classes-per-file": false,
+    "member-ordering": false,
+    "no-string-literal": false,
+    "no-submodule-imports": false,
+    "no-implicit-dependencies": false,
+    "no-object-literal-type-assertion": false,
+    "no-console": true,
+    "strict-boolean-expressions": [true],
+    "variable-name": {
+      "options": ["ban-keywords", "check-format", "allow-leading-underscore", "allow-pascal-case"]
+    },
+    "no-floating-promises": true,
+    "no-unused-expression": true,
+    "no-promise-as-boolean": true,
+    "restrict-plus-operands": true,
+    "promise-function-async": true,
+    "no-void-expression": [true, "ignore-arrow-function-shorthand"],
+    "use-default-type-parameter": true,
+    "deprecation": true,
+    "prefer-readonly": true,
+    "no-unnecessary-qualifier": true,
+    "return-undefined": true,
+    "unnecessary-bind": true,
+    "no-for-in-array": true,
+    "strict-comparisons": true
+  }
+}

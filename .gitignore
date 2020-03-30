@@ -2,3 +2,11 @@
 public
 .cache
 node_modules
+
+gatsby-node.js
+gatsby-node.js.map
+
+reduxcache*
+
+*.js
+*.js.map
