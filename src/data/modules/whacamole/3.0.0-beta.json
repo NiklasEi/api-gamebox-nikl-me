@@ -1,0 +1,21 @@
+{
+  "id": "whacamole",
+  "name": "WhacAMole",
+  "authors": [
+    "Niklas Eicker"
+  ],
+  "description": "These moles just keep coming back. Whac them!",
+  "sourceUrl": "https://github.com/NiklasEi/whac-a-mole-for-gamebox",
+  "version": "4.0.0-beta",
+  "updatedAt": 1585771760804,
+  "downloadUrl": "https://github.com/NiklasEi/whac-a-mole-for-gamebox/releases/download/v3.0.0-beta/WhacAMole.jar",
+  "releaseNotes": [
+    "This is the first release for GameBox v3 and is compatible with MC 1.14+"
+  ],
+  "dependencies":[
+    {
+      "id": "gamebox",
+      "versionConstrain": ">= 3.0.0-beta.2"
+    }
+  ]
+}

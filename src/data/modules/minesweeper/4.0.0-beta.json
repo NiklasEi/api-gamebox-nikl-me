@@ -1,0 +1,21 @@
+{
+  "id": "minesweeper",
+  "name": "Minesweeper",
+  "authors": [
+    "Niklas Eicker"
+  ],
+  "description": "Use logic to find all mines",
+  "sourceUrl": "https://github.com/NiklasEi/minesweeper-for-gamebox",
+  "version": "4.0.0-beta",
+  "updatedAt": 1585771723213,
+  "downloadUrl": "https://github.com/NiklasEi/minesweeper-for-gamebox/releases/download/v4.0.0-beta/Minesweeper.jar",
+  "releaseNotes": [
+    "This is the first release for GameBox v3 and is compatible with MC 1.14+"
+  ],
+  "dependencies":[
+    {
+      "id": "gamebox",
+      "versionConstrain": ">= 3.0.0-beta.2"
+    }
+  ]
+}
