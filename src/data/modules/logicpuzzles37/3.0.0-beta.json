@@ -1,0 +1,21 @@
+{
+  "id": "logicpuzzles",
+  "name": "LogicPuzzles",
+  "authors": [
+    "Niklas Eicker"
+  ],
+  "description": "Spend some time with brain teasers",
+  "sourceUrl": "https://github.com/NiklasEi/logic-puzzles-for-gamebox",
+  "version": "3.0.0-beta",
+  "updatedAt": 1586005896649,
+  "downloadUrl": "https://github.com/NiklasEi/logic-puzzles-for-gamebox/releases/download/v3.0.0-beta/LogicPuzzles.jar",
+  "releaseNotes": [
+    "This is the first release for GameBox v3 and is compatible with MC 1.14+"
+  ],
+  "dependencies":[
+    {
+      "id": "gamebox",
+      "versionConstrain": ">= 3.0.0-beta.2"
+    }
+  ]
+}
