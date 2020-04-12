@@ -1,0 +1,21 @@
+{
+  "id": "mp-gamebundle",
+  "name": "MP-GameBundle",
+  "authors": [
+    "Niklas Eicker"
+  ],
+  "description": "Collection of multi player games",
+  "sourceUrl": "https://github.com/NiklasEi/mp-gamebundle-for-gamebox",
+  "version": "2.0.0-beta.2",
+  "updatedAt": 1586723926730,
+  "downloadUrl": "https://github.com/NiklasEi/mp-gamebundle-for-gamebox/releases/download/v2.0.0-beta.2/MP-GameBundle.jar",
+  "releaseNotes": [
+    "Update to GameBox v3.0.0-beta.3"
+  ],
+  "dependencies":[
+    {
+      "id": "gamebox",
+      "versionConstrain": ">= 3.0.0-beta.3"
+    }
+  ]
+}

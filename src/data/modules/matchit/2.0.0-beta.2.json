@@ -1,0 +1,21 @@
+{
+  "id": "matchit",
+  "name": "MatchIt",
+  "authors": [
+    "Niklas Eicker"
+  ],
+  "description": "Memory game with items",
+  "sourceUrl": "https://github.com/NiklasEi/matchit-for-gamebox",
+  "version": "2.0.0-beta.2",
+  "updatedAt": 1586720305457,
+  "downloadUrl": "https://github.com/NiklasEi/matchit-for-gamebox/releases/download/v2.0.0-beta.2/MatchIt.jar",
+  "releaseNotes": [
+    "Update to GameBox v3.0.0-beta.3"
+  ],
+  "dependencies":[
+    {
+      "id": "gamebox",
+      "versionConstrain": ">= 3.0.0-beta.3"
+    }
+  ]
+}

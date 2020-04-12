@@ -1,0 +1,21 @@
+{
+  "id": "battleship",
+  "name": "Battleship",
+  "authors": [
+    "Niklas Eicker"
+  ],
+  "description": "Sink your opponents ships before he finds yours",
+  "sourceUrl": "https://github.com/NiklasEi/battleship-for-gamebox",
+  "version": "4.0.0-beta.2",
+  "updatedAt": 1586686593135,
+  "downloadUrl": "https://github.com/NiklasEi/battleship-for-gamebox/releases/download/v4.0.0-beta.2/Battleship.jar",
+  "releaseNotes": [
+    "Update to GameBox v3.0.0-beta.3"
+  ],
+  "dependencies":[
+    {
+      "id": "gamebox",
+      "versionConstrain": ">= 3.0.0-beta.3"
+    }
+  ]
+}

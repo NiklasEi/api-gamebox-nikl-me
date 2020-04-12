@@ -1,0 +1,21 @@
+{
+  "id": "connectfour",
+  "name": "ConnectFour",
+  "authors": [
+    "Niklas Eicker"
+  ],
+  "description": "Line up four chips before your opponent does",
+  "sourceUrl": "https://github.com/NiklasEi/connectfour-for-gamebox",
+  "version": "3.0.0-beta.2",
+  "updatedAt": 1586708227209,
+  "downloadUrl": "https://github.com/NiklasEi/connectfour-for-gamebox/releases/download/v3.0.0-beta.2/ConnectFour.jar",
+  "releaseNotes": [
+    "Update to GameBox v3.0.0-beta.3"
+  ],
+  "dependencies":[
+    {
+      "id": "gamebox",
+      "versionConstrain": ">= 3.0.0-beta.3"
+    }
+  ]
+}
