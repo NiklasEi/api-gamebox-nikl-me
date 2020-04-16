@@ -1,0 +1,21 @@
+{
+  "id": "minesweeper",
+  "name": "Minesweeper",
+  "authors": [
+    "Niklas Eicker"
+  ],
+  "description": "Use logic to find all mines",
+  "sourceUrl": "https://github.com/NiklasEi/minesweeper-for-gamebox",
+  "version": "4.0.18",
+  "updatedAt": 1585847425071,
+  "downloadUrl": "https://github.com/NiklasEi/minesweeper-for-gamebox/releases/download/v4.0.0-beta.2/Minesweeper.jar",
+  "releaseNotes": [
+    "New config option 'firstClickEmptyField' to always reveal an empty slot on first click (default: true)"
+  ],
+  "dependencies":[
+    {
+      "id": "gamebox",
+      "versionConstrain": ">= 3.0.0-beta.2"
+    }
+  ]
+}
