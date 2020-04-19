@@ -1,0 +1,22 @@
+{
+  "id": "connectfour",
+  "name": "ConnectFour",
+  "authors": [
+    "Niklas Eicker"
+  ],
+  "description": "For the future",
+  "sourceUrl": "https://github.com/NiklasEi/2048-for-gamebox",
+  "version": "4.0.0",
+  "updatedAt": 1586016751259,
+  "downloadUrl": "https://github.com/NiklasEi/non-existend/releases/download/v1.0.0/gbv4.jar",
+  "releaseNotes": [
+    "A major update",
+    "Did some not backwards compatible stuff"
+  ],
+  "dependencies":[
+    {
+      "id": "gamebox",
+      "versionConstrain": ">= 3.0.0"
+    }
+  ]
+}
