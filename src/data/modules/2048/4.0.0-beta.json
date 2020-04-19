@@ -1,0 +1,22 @@
+{
+  "id": "2048",
+  "name": "2048",
+  "authors": [
+    "Niklas Eicker"
+  ],
+  "description": "For the future",
+  "sourceUrl": "https://github.com/NiklasEi/2048-for-gamebox",
+  "version": "3.0.1",
+  "updatedAt": 1586016751259,
+  "downloadUrl": "https://github.com/NiklasEi/non-existend/releases/download/v1.0.0/gbv4.jar",
+  "releaseNotes": [
+    "This module is an example",
+    "It should not install since it is for Gb v4"
+  ],
+  "dependencies":[
+    {
+      "id": "gamebox",
+      "versionConstrain": ">= 4.0.0"
+    }
+  ]
+}
