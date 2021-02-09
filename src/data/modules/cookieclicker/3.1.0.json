@@ -1,0 +1,21 @@
+{
+  "id": "cookieclicker",
+  "name": "CookieClicker",
+  "authors": [
+    "Niklas Eicker"
+  ],
+  "description": "The super addictive backing game",
+  "sourceUrl": "https://github.com/NiklasEi/cookieclicker-for-gamebox",
+  "version": "3.1.0",
+  "updatedAt": 1612900907311,
+  "downloadUrl": "https://github.com/NiklasEi/cookieclicker-for-gamebox/releases/download/v3.1.0/CookieClicker.jar",
+  "releaseNotes": [
+    "Support money and token rewards"
+  ],
+  "dependencies":[
+    {
+      "id": "gamebox",
+      "versionConstrain": ">= 3.2.0"
+    }
+  ]
+}
