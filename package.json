@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/NiklasEi/api-gamebox-nikl-me#readme",
   "dependencies": {
-    "gatsby": "2.20.7",
+    "gatsby": "4.25.7",
     "gatsby-plugin-tslint": "0.0.2",
     "gatsby-plugin-typescript": "2.3.1",
     "gatsby-source-filesystem": "2.2.2",
